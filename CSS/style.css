@@ -1,0 +1,173 @@
+/*     Global     */
+*{
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+body {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  
+}
+
+/*  Hearder   Navbar    */
+
+/*Gmail e Imagens*/
+.navbar {
+  text-align: end;
+  padding: 20px;  
+  font-family: 'Patrick Hand SC', cursive;
+}
+.gi-bp {
+  font-size: 13px;
+}
+.links-nb, links-bp {
+  padding-left: 15px;
+  align-items: center;
+  margin-top: 15px;
+  
+}
+/*botão Hamburguer e perfil*/
+.bh-img {
+  width: 17px;
+  height: 17px;
+}
+.bp-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+/*      Main    */
+
+/* pesquisa */
+.pesquisa{
+  padding-top: 109px;
+  text-align: center;
+}
+.buscar {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 6px;
+  max-width: 484px;
+   background: #fff;
+   display: flex;
+   border: 1px solid #dfe1e5;
+   box-shadow: none;
+   border-radius: 24px;
+   z-index: 3;
+   height: 44px;
+   width: auto;
+}
+/*img-icons pesquisa*/
+.icons-pesq {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+.img-pesquisa {
+  margin-top: 3px;
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+}
+
+/* barra de pesquisa*/
+.barraPesq {
+  display: flex;
+  flex: 100%;
+  flex-wrap: wrap;
+  color: transparent;
+  white-space: pre;
+  line-height: 34px;
+  height: 34px !important;
+  
+
+}
+.barraInput {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 85, 3);
+  outline: none;
+  display: flex;
+  flex: 50%;
+  font-size: 16px;
+  
+
+
+}
+
+/*Button*/
+
+.button {
+  height: 70px;
+  padding-top: 18px;
+  top: 53px;
+  display: block;
+  text-align: center;
+}
+.btnPresquisa {
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  background-color:  #f8f9fa;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height:  27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.traducao {
+  display: inline-block;
+  line-height: 28px;
+}
+.linkTraducao {
+  color: rgb(67, 67, 226);
+}
+
+/*     footer    */
+.rodape {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.rodape, rodapeText {
+  background: #f2f2f2;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+  padding-left: 20px;
+}
+
+.rodapeLinks {
+  display: flex;
+  background: #f2f2f2;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.rodapeLinks {
+  padding: 0px 10px;
+}
+
+.links1 {
+  float: right;
+  margin-right: 30px;
+}
+.links2 {
+  margin-left: 30px;
+  float: left;
+}
+
